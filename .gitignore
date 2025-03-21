@@ -1,6 +1,5 @@
 # User-specific stuff
 .idea/
-/.idea/
 *.ipr
 *.iws
 
@@ -115,3 +114,30 @@ bin/
 
 # Common working directory
 run/
+node_modules/
+package-lock.json
+.env
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+.angular/
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
